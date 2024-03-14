@@ -1,0 +1,25 @@
+{
+  "name": "mochadb",
+  "version": "1.0.0",
+  "description": "Node sqlite3 example",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc --reporter=text mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "3": "^2.1.0",
+    "mocha": "^10.2.0",
+    "save-dev": "^0.0.1-security",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  }
+}
