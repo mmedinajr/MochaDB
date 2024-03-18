@@ -28,7 +28,7 @@ describe("Sqlite", function () {
 
     await insertUser(db, name, email);
     const user = await getUsersByName(db, name);//test actual
-    assert.deepEqual(user, [{ id: 1, name, email }]);//test expected
+    assert.deepEqual(user, [{ id: 1, name2, email }]);//test expected
   });
 
   after(() => {
